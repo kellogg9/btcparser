@@ -1,4 +1,4 @@
-# btcparser
+# Bitcoin Blockchain Parser & Validator
 This is a program that was made for the CS4501 - Cryptocurrency class at the University of Virginia. This program takes in a file that contains one or more blocks from the Bitcoin blockchain  in binary format. It reads these blocks in, checks the blockchain for a set of possible errors, and then outputs the result in JSON format.
 
 This program only provides exactly one line of output to the standard output: either no errors X blocks or the specific error and block number (e.g. error 5 block 17). In the case of multiple errors, this program terminates on the first discovered error. In addition, it will create a JSON file if there were no errors – if the input file name was blk00000.blk, then it will create a JSON file named blk00000.blk.json. 
